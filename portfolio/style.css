@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+     background-color: rgb(59, 1, 95);
+     color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: black;
+}
+nav ul button{
+    background-color: transparent;
+    color: white;
+}
+.content{
+    width: 55%;
+}
+.container{
+    background-color: rgb(32,32,95);
+    width:100%;
+    min-height:auto;  
+    padding:40px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+}
+.container h1{
+    font-weight: 200PX bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(238, 232, 244);
+    font-size: 50px;
+}
+.container h2{
+    color: cadetblue;
+    font-style: oblique;
+}
+.text{
+    width: 490px;
+    color: white;
+}
+.btn{
+    border-color: white;
+    border-radius: 20px;
+}
+.container button{
+    padding: 10px;
+    color: white;
+    border-color: white;
+    background: linear-gradient(pink, purple);
+}
+.social-icons{
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+.social-icons a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid  #00eeff;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+.social-icons a:hover{
+    background: #00eeff;
+    color: black;
+}
+.image-box{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-box img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid #00eeff;
+}
+.container h1,
+.container h2,
+.container p{
+    margin: 15px 0;
+}
+body{
+    background-color: rgb(32,32,95);
+}
+
+.about{
+    background-color: rgb(32,32,95);
+    padding:40px 50px;
+    color:white
+}
+
+.about h2{
+    color:#00eeff;
+    margin-bottom:20px;
+}
+
+.about p{
+    width:70%;
+    line-height:1.8;
+}
