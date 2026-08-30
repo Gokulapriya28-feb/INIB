@@ -1,0 +1,26 @@
+.Temperature{
+    text-align: center;
+    padding: 70px;
+    background-color: white;
+    width: 480px;
+    border-radius: 8px;
+}
+.container{
+    background-color: blue;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.input{
+    display: flex;
+    gap: 50px;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px 200px;
+    font-size: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
